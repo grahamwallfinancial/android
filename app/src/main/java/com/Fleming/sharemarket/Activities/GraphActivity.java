@@ -127,7 +127,7 @@ Log.e("graph","Share_name"+Share_name);
         ArrayList<String> list = new ArrayList<String>();
         list.add("Select Refresh Rate");
         list.add("2 sec");
-        list.add("5 sec");
+        list.add("4 sec");
         list.add("20 sec");
         list.add("1 min");
         list.add("5 min");
