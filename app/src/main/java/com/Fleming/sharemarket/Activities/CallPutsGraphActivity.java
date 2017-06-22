@@ -97,12 +97,9 @@ public class CallPutsGraphActivity extends AppCompatActivity {
                             Log.e("graph", "json2nd" + json2nd);
 
 
-                            String month = com.Fleming.sharemarket.common.Utils.get_month_list(json2nd.getString("m"));
 
 
                             JSONArray jsonputs = json1st.getJSONArray("puts");
-                            JSONArray jsoncals = json1st.getJSONArray("calls");
-
 
                             if (json1st.has("puts")) {
                                 jsonArray = json1st.getJSONArray("puts");
