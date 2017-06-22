@@ -44,7 +44,6 @@ public class CallPutsGraphActivity extends AppCompatActivity {
     private LinearLayoutManager mLayoutManager, mLayoutManager1;
 
     private RecyclerView mRecyclerView;
-    String puts, calls;
     BarChart barChart1, barChart2;
     static ArrayList<ChainlistClass> listoperatorlist;
     static JSONArray jsonArray;
@@ -93,8 +92,7 @@ public class CallPutsGraphActivity extends AppCompatActivity {
                             JSONObject json1st = new JSONObject(arg0);
                             JSONObject json2nd = json1st.getJSONObject("expiry");
 
-                            Log.e("graph", "json1st" + json1st);
-                            Log.e("graph", "json2nd" + json2nd);
+                         
 
 
 
