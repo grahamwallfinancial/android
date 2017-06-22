@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShareMarket</string>
+    <string name="strike_price">Strike Price</string>
+    <string name="open_int">Open Interest</string>
+    <string name="option_chain">Option Chain</string>
+    <string name="refresh_rate">Refresh Rate</string>
+    <string name="exp">Expiration</string>
+    <string name="calls_text">Calls</string>
+    <string name="puts">Puts</string>
+    <string name="strike">Strike</string>
+    <string name="price">Price</string>
+    <string name="change">Change</string>
+    <string name="bid">Bid</string>
+    <string name="ask">Ask</string>
+    <string name="vol">Vol.</string>
+    <string name="opn_int">Op.Int</string>
+    <string name="graph">Calls &amp; Puts Graph</string>
+</resources>
